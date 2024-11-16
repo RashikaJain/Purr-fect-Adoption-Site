@@ -126,10 +126,9 @@ body
 }
 
 .section-2 h3
-{
-    margin-left : 41%;   
+{   
     font-size : 34px ;  
-    padding : 20px 0 ; 
+    text-align: center ;
     color : #233144 ; 
 
 }
