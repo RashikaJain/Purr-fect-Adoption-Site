@@ -1,0 +1,235 @@
+body
+{
+    padding :0 ; 
+    margin : 0 ; 
+    box-sizing : border-box; 
+    overflow-x : hidden ; 
+    font-family : "Roboto", serif;
+}
+
+.headerclass
+{
+    list-style-type : none;  
+    margin : 0 ; 
+    padding: 0 ; 
+}
+.headerclass li 
+{
+    display : inline ; 
+    list-style-type :none;  
+}
+
+.headerclass li img
+{
+    width : 60px; 
+    height :60px ; 
+    position : relative; 
+    top : 28px;  
+    margin : 0 34% 0 15% ;
+    background-color : rgb(218, 201, 201) ;  
+}
+
+.headerclass li a
+{
+    color : rgb(238, 238, 238) ; 
+    text-decoration : none;  
+    font-weight :500 ; 
+    display : inline-block  ;
+    margin : 0 34% 0 13% ;
+    font-family: "Roboto", serif;
+    margin : 0 4% 3% 0 ; 
+}
+
+.headerclass li a:hover
+{
+    background-color : rgb(238, 235, 235);
+    color : #1F2937 ; 
+}
+
+.section-1
+{
+    background-color : #1F2937 ; 
+
+}
+
+.who-are-we
+{
+    display : flex ; 
+    flex-direction : row;  
+    justify-content :space-around ; 
+    align-content : center ; 
+    margin-top : 8%  ;
+    padding-bottom : 8% ; 
+}
+
+.who-are-we div
+{
+    flex-basis: 40%;
+}
+
+.who-are-we div h3
+{
+       color : white ; 
+       font-size : 3rem ; 
+}
+
+.who-are-we div p
+{
+    color : white ; 
+    font-size : 1.1rem ; 
+}
+
+.who-are-we div img
+{
+    border : 1px solid transparent;
+    border-radius: 50% 20% / 10% 40% ;
+    animation : transition-1 3s linear 1s  ;
+}
+
+.signup-1 button
+{
+    background-color : #3882F6 ; 
+    color : white ; 
+    border : 1px solid transparent ; 
+    padding :25px ; 
+    border-radius: 10% 30% 50% 70%;
+    animation : transition-1 3s linear 1s  ;
+
+}
+
+.shelter-details
+{
+    display : flex;  
+    flex-direction  :row;
+    justify-content :space-around; 
+    align-content : content ;  
+}
+
+.shelter-details div
+{
+    border : 1px solid #f0f0f0 ; 
+    box-shadow : 3px 3px whitesmoke;
+    padding : 4px ; 
+    margin : 3px ; 
+    text-align : center ; 
+}
+
+.animals-avail img
+{
+    flex-basis : 20% ; 
+    width : 70% ; 
+    height: 70% ; 
+    border: 1px solid transparent;
+    border-radius : 40% ;
+    border : 1px solid #818080;
+    box-shadow : 3px 4px whitesmoke;
+}
+
+.section-2 h3
+{
+    margin-left : 41%;   
+    font-size : 34px ;  
+    padding : 20px 0 ; 
+    color : #233144 ; 
+
+}
+
+.article-1-customer
+{
+    background-color: #e5e7eb;
+    text-align: center;
+    padding : 6rem ;
+    animation:transition-1 5s linear 1s  ;
+    margin :  4rem 0 ;
+}
+
+.article-1-customer h3 
+{
+    font-size : 36px ; 
+    margin :0  auto ; 
+    color : #1F2937 ;
+}
+
+.article-1-customer p
+{
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic ; 
+}
+
+.section-3 p button
+{
+    width : 10% ;
+    background-color: #3882F6;
+    height : 10%; 
+    float : right;  
+    border : 2px solid white ; 
+    color :white ;
+    margin : 0 6% 0 0 ;
+    
+}
+
+.section-3
+{
+    width : 70% ;
+    height : auto ; 
+    text-align : center ; 
+    margin : auto ;
+    padding : 1rem ; 
+    color : white;
+    background-color: #3882F6;
+}
+.section-3 h3
+{
+
+    font-size : 30px ; 
+    margin :0  auto ;
+}
+
+.section-3 p
+{
+    font-size: 24px;
+}
+
+footer
+{
+    margin : 5% 0 0 0 ;
+    padding : 2% ;
+    text-align :center ; 
+    background-color: black;
+    color: white;
+}
+
+@keyframes transition-1
+{
+    from{opacity: 0; }
+    to{opacity: 1.0;}
+}
+
+@media screen and (max-width : 900px)
+{
+    .headerclass li img 
+    {
+        top : 0 ; 
+    }
+
+    .headerclass li 
+    {
+        display : block ; 
+    }
+    .who-are-we
+    {
+        flex-direction: column;
+    }
+
+    .who-are-we div img 
+    {
+        width : 90% ; 
+        text-align : center ; 
+    }
+
+    .shelter-details
+    {
+        flex-direction : column ; 
+    }
+}
