@@ -25,11 +25,11 @@ body
 
 .headerclass li img
 {
-    width : 8rem; 
+    width : 6rem; 
     height :55px ; 
     position : relative; 
     top : 35px;
-    margin : 0 30% 0 15% ;
+    margin : 0 15% 0 15% ;
     background-color : rgb(218, 201, 201) ;  
 }
 
