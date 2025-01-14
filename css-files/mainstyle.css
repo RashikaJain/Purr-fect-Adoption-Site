@@ -12,8 +12,8 @@ body
     background-color : #1F2937 ; 
     list-style-type : none;  
     margin : 0 ; 
-    padding: 0% ; 
-    width :100% ; 
+    padding: 0 ; 
+    max-width :100% ; 
     top : 0% ; 
     background-color: #1F2937;
 }
@@ -25,11 +25,12 @@ body
 
 .headerclass li img
 {
-    width : 6rem; 
-    height :55px ; 
+    width : 7rem; 
+    height :50px ; 
     position : relative; 
-    top : 35px;
-    margin : 0 15% 0 15% ;
+    top : 20px;
+    padding : 0% ;
+    margin : 0 6% 0 7rem ;
     background-color : rgb(218, 201, 201) ;  
 }
 
