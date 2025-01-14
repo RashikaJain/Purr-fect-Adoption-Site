@@ -141,7 +141,7 @@ body
 {
     position:relative;
     bottom : 7px;
-    background-image: url(/images/pawsinomtion.jpeg);
+    background-image: url(../images/pawsinomtion.jpeg);
     background-size: cover;
     background-position: top;
     transition: all 1s ease-in; 
