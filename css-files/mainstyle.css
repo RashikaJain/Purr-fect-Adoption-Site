@@ -1,0 +1,331 @@
+body
+{
+    padding :0 ; 
+    margin : 0 ; 
+    box-sizing : border-box; 
+    overflow-x : scroll; 
+    font-family : "Roboto", serif;
+}
+
+.headerclass
+{
+    background-color : #1F2937 ; 
+    list-style-type : none;  
+    margin : 0 ; 
+    padding: 0% ; 
+    width :100% ; 
+    top : 0% ; 
+    background-color: #1F2937;
+}
+.headerclass li 
+{
+    display : inline ; 
+    list-style-type :none;  
+}
+
+.headerclass li img
+{
+    width : 10rem; 
+    height :55px ; 
+    position : relative; 
+    top : 35px;
+    margin : 0 30% 0 15% ;
+    background-color : rgb(218, 201, 201) ;  
+}
+
+.headerclass li a
+{
+    color : rgb(238, 238, 238) ; 
+    text-decoration : none;  
+    font-weight :500 ; 
+    display : inline-block  ;
+    margin : 0 34% 0 13% ;
+    font-family: "Roboto", serif;
+    margin : 0 4% 3% 0 ; 
+}
+
+
+.headerclass li a:hover
+{
+    background-color : rgb(238, 235, 235);
+    color : #1F2937 ; 
+}
+
+.section-1
+{
+    background-color : #1F2937 ;
+}
+
+.who-are-we
+{
+    display : flex ; 
+    flex-direction : row;  
+    justify-content :space-around ; 
+    align-content : center ; 
+    margin-top : 8%  ;
+    padding-bottom : 8% ; 
+    animation : transition-1 4s linear   ;
+}
+
+.who-are-we div
+{
+    flex-basis: 40%;
+}
+
+.who-are-we div h3
+{
+       color : white ; 
+       font-size : 3rem ; 
+}
+
+.who-are-we div p
+{
+    color : white ; 
+    font-size : 1.1rem ; 
+}
+
+.who-are-we div img
+{
+    border : 1px solid transparent;
+    border-radius: 50% 20% / 10% 40% ;
+    animation : transition-1 4s linear   ;
+}
+
+.signup-1 button
+{
+    background-color : #3882F6 ; 
+    color : white ; 
+    border : 1px solid transparent ; 
+    padding :35px ; 
+    border-radius: 10% 30% 50% 70%;
+    animation : transition-1 3s linear  ;
+    margin-top : 20px ; 
+
+}
+
+.shelter-details
+{
+    display : flex;  
+    flex-direction  :row;
+    justify-content :space-around; 
+    align-content : content ;  
+}
+
+.shelter-details div
+{
+    border : 1px solid #f0f0f0 ; 
+    box-shadow : 3px 3px whitesmoke;
+    padding : 4px ; 
+    margin : 3px ; 
+    text-align : center ; 
+}
+
+.animals-avail img
+{
+    flex-basis : 20% ; 
+    margin : 30px 0 30px 0 ; 
+    width: 70% ; 
+    height : 70% ;
+    border: 1px solid transparent;
+    border-radius : 40% ;
+    border : 1px solid #818080;
+    box-shadow : 3px 4px whitesmoke;
+}
+
+.animals-avail:hover
+{
+    position:relative;
+    bottom : 7px;
+    background-image: url(/images/Paws\ In\ Motion.jpeg);
+    background-size: cover;
+    transition: all 1s ease-in; 
+}
+
+.click-to-get
+{
+    /* display : hidden ;  */
+    position :absolute ; 
+    height :  80px;  
+    width : 100px;
+    background-color: #3d4654;
+    color : whitesmoke ; 
+    border : 1px solid transparent ; 
+    border-radius: 10px; 
+}
+
+
+.section-2 h3
+{   
+    margin-top : 40px ;
+    margin-bottom : 40px ; 
+    font-size : 38px ;  
+    text-align: center ;
+    color : #233144 ; 
+
+}
+/* 
+.article-1-customer
+{
+    background-color: #e5e7eb;
+    text-align: center;
+    padding : 6rem ;
+    animation:transition-1 5s linear 1s  ;
+    margin :  4rem 0 ;
+}
+
+.article-1-customer h3 
+{
+    font-size : 36px ; 
+    margin :0  auto ; 
+    color : #1F2937 ;
+}
+
+.article-1-customer p
+{
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic ; 
+} */
+
+.section-3 p button
+{
+    width : 10% ;
+    background-color: #3882F6;
+    height : 10%; 
+    float : right;  
+    border : 2px solid white ; 
+    color :white ;
+    margin : 0 6% 0 0 ;
+    
+}
+
+.section-3
+{
+    width : 70% ;
+    height : auto ; 
+    text-align : center ; 
+    margin: auto ;
+    margin-top : 4rem ;
+    padding : 2rem ; 
+    color : white;
+    background-color: #3882F6;
+}
+.section-3 h3
+{
+
+    font-size : 30px ; 
+    margin :0  auto ;
+}
+
+.section-3 p
+{
+    font-size: 24px;
+}
+
+.signup-button
+{
+    display: inline;
+    width : 60px ; 
+    height : 60px;
+}
+
+.signup-button:hover
+{
+    background-color : white ; 
+    color : black ; 
+    border: 2px solid black ;
+    transition : 1s ease-in-out ;
+}
+
+footer 
+{
+    margin-top: 7% ; 
+    background-color : black ; 
+    color : white;
+    height : 34% ;
+}
+#footer-sec
+{
+    display : flex ; 
+    flex-direction : row ; 
+    justify-content : flex-start; 
+    align-items : center ; 
+}
+
+
+div[id*="footer-sec"]
+{
+    color : rgb(219, 218, 218) ; 
+    font-family: "Roboto", sans-serif ; 
+    box-sizing : border-box ; 
+    padding-right : 13%;
+    box-sizing: border-box;  
+}
+
+div[id*="copyright"]
+{
+    color : rgb(207, 206, 206); 
+    font-family: "Roboto", sans-serif;
+    box-sizing : border-box ; 
+    padding : 10px;
+}
+
+#button
+{
+    color : white ; 
+    background-color: #d93b0b;  
+    border : 1px solid #d93b0b ;
+}
+
+#footer-section-1
+{
+    margin-left  :0 ; 
+}
+
+
+@keyframes transition-1
+{
+    from{opacity: 0; }
+    to{opacity: 1.0;}
+}
+
+@media screen and (max-width : 900px)
+{
+    .headerclass li img 
+    {
+        top : 0 ; 
+    }
+
+    .headerclass li 
+    {
+        display : block ; 
+    }
+    .who-are-we
+    {
+        flex-direction: column;
+    }
+
+    .who-are-we div img 
+    {
+        width : 90% ; 
+        text-align : center ; 
+    }
+
+    button .signup-button
+    {
+        display: hidden;
+
+    }
+
+    .shelter-details
+    {
+        flex-direction : column ; 
+    }
+
+    #footer-sec
+    {
+        display : block ; 
+        background-color: black ;   
+    }
+
+}
