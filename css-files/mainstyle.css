@@ -119,24 +119,31 @@ body
     text-align : center ; 
 }
 
-.animals-avail img
+.animals-avail 
 {
-    flex-basis : 20% ; 
+    flex-basis : 30% ; 
     margin : 30px 0 30px 0 ; 
-    width: 70% ; 
-    height : 70% ;
     border: 1px solid transparent;
-    border-radius : 40% ;
     border : 1px solid #818080;
     box-shadow : 3px 4px whitesmoke;
+    padding : 6rem ;
 }
 
+.animals-avail img
+{
+    border: 1px solid transparent;
+    border-radius : 40% ;
+    width: 80% ; 
+    height : 80% ;   
+    border-radius : 40% ;
+}
 .animals-avail:hover
 {
     position:relative;
     bottom : 7px;
     background-image: url(/images/Paws\ In\ Motion.jpeg);
     background-size: cover;
+    background-position: top;
     transition: all 1s ease-in; 
 }
 
