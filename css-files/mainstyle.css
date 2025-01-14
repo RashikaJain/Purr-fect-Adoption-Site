@@ -25,7 +25,7 @@ body
 
 .headerclass li img
 {
-    width : 10rem; 
+    width : 8rem; 
     height :55px ; 
     position : relative; 
     top : 35px;
@@ -39,11 +39,9 @@ body
     text-decoration : none;  
     font-weight :500 ; 
     display : inline-block  ;
-    margin : 0 34% 0 13% ;
     font-family: "Roboto", serif;
-    margin : 0 4% 3% 0 ; 
-}
-
+    margin : 4% 4% 0 2% ;
+} 
 
 .headerclass li a:hover
 {
